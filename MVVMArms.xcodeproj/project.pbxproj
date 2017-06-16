@@ -55,6 +55,7 @@
 		B759FAB01EF378E50003E373 /* MVVMArmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMArmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B759FAB41EF378E50003E373 /* MVVMArmsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMArmsUITests.m; sourceTree = "<group>"; };
 		B759FAB61EF378E50003E373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B759FAD61EF3875E0003E373 /* HJPViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		8255DDAAAC81BB3DA4C911CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B759FAC21EF3832F0003E373 /* Frameworks */,
 				50DBCE4E32140076D10D603E /* libPods-MVVMArms.a */,
 			);
 			name = Frameworks;
@@ -125,8 +127,9 @@
 		B759FA8E1EF378E40003E373 /* MVVMArms */ = {
 			isa = PBXGroup;
 			children = (
-				B759FA921EF378E40003E373 /* AppDelegate.h */,
-				B759FA931EF378E40003E373 /* AppDelegate.m */,
+				B759FAC31EF3838D0003E373 /* AppDelegate */,
+				B759FAC41EF383FF0003E373 /* Classes */,
+				B759FAC51EF384480003E373 /* Resource */,
 				B759FA951EF378E40003E373 /* ViewController.h */,
 				B759FA961EF378E40003E373 /* ViewController.m */,
 				B759FA981EF378E40003E373 /* Main.storyboard */,
@@ -162,6 +165,157 @@
 				B759FAB61EF378E50003E373 /* Info.plist */,
 			);
 			path = MVVMArmsUITests;
+			sourceTree = "<group>";
+		};
+		B759FAC21EF3832F0003E373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		B759FAC31EF3838D0003E373 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B759FA921EF378E40003E373 /* AppDelegate.h */,
+				B759FA931EF378E40003E373 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B759FAC41EF383FF0003E373 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B759FAD41EF3868D0003E373 /* Base */,
+				B759FACF1EF385DC0003E373 /* Vendors */,
+				B759FACE1EF385A90003E373 /* Sections */,
+				B759FACD1EF3851C0003E373 /* Macro */,
+				B759FACC1EF385030003E373 /* Helpers */,
+				B759FAC61EF384990003E373 /* General */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B759FAC51EF384480003E373 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B759FAD31EF386200003E373 /* Videos */,
+				B759FAD21EF386180003E373 /* Sounds */,
+				B759FAD11EF386100003E373 /* Images */,
+				B759FAD01EF3860A0003E373 /* Fonts */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		B759FAC61EF384990003E373 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B759FAC81EF384B10003E373 /* Categories */,
+				B759FAC71EF384A70003E373 /* Base */,
+				B759FACB1EF384CB0003E373 /* Views */,
+				B759FACA1EF384C10003E373 /* Models */,
+				B759FAC91EF384B90003E373 /* Core */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		B759FAC71EF384A70003E373 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B759FAC81EF384B10003E373 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B759FAC91EF384B90003E373 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B759FACA1EF384C10003E373 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B759FACB1EF384CB0003E373 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B759FACC1EF385030003E373 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B759FACD1EF3851C0003E373 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		B759FACE1EF385A90003E373 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		B759FACF1EF385DC0003E373 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		B759FAD01EF3860A0003E373 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		B759FAD11EF386100003E373 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B759FAD21EF386180003E373 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		B759FAD31EF386200003E373 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		B759FAD41EF3868D0003E373 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B759FAD61EF3875E0003E373 /* HJPViewProtocol.h */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,6 +747,7 @@
 				B759FABB1EF378E50003E373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B759FABC1EF378E50003E373 /* Build configuration list for PBXNativeTarget "MVVMArmsTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +756,7 @@
 				B759FABE1EF378E50003E373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B759FABF1EF378E50003E373 /* Build configuration list for PBXNativeTarget "MVVMArmsUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +765,7 @@
 				B759FAC11EF378E50003E373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

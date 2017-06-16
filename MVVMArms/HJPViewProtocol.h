@@ -1,18 +1,14 @@
 //
-//  ViewController.h
+//  HJPViewProtocol.h
 //  MVVMArms
 //
 //  Created by harris.huang on 2017/6/16.
 //  Copyright © 2017年 com.harrishuang. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 
 
-//http://www.jianshu.com/p/3beb21d5def2
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+@protocol HJPViewProtocol <NSObject>
 
 @end
-
