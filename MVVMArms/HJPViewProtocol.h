@@ -11,4 +11,10 @@
 
 @protocol HJPViewProtocol <NSObject>
 
+（void）hjp_bindViewModel;
+ (void)hjp_addSubViews;
+ (void)hjp_layoutNavigaction;
+ (void)hjp_getNewData;
+ (void)recoverKeyboard;
+
 @end

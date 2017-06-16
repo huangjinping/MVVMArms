@@ -16,6 +16,7 @@
 		B759FA9F1EF378E40003E373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759FA9D1EF378E40003E373 /* LaunchScreen.storyboard */; };
 		B759FAAA1EF378E50003E373 /* MVVMArmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B759FAA91EF378E50003E373 /* MVVMArmsTests.m */; };
 		B759FAB51EF378E50003E373 /* MVVMArmsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B759FAB41EF378E50003E373 /* MVVMArmsUITests.m */; };
+		B759FAD91EF38BAE0003E373 /* HJPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B759FAD81EF38BAE0003E373 /* HJPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		B759FAB41EF378E50003E373 /* MVVMArmsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMArmsUITests.m; sourceTree = "<group>"; };
 		B759FAB61EF378E50003E373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B759FAD61EF3875E0003E373 /* HJPViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPViewProtocol.h; sourceTree = "<group>"; };
+		B759FAD71EF38BAE0003E373 /* HJPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPViewController.h; sourceTree = "<group>"; };
+		B759FAD81EF38BAE0003E373 /* HJPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +317,8 @@
 			isa = PBXGroup;
 			children = (
 				B759FAD61EF3875E0003E373 /* HJPViewProtocol.h */,
+				B759FAD71EF38BAE0003E373 /* HJPViewController.h */,
+				B759FAD81EF38BAE0003E373 /* HJPViewController.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -508,6 +513,7 @@
 				B759FA971EF378E40003E373 /* ViewController.m in Sources */,
 				B759FA941EF378E40003E373 /* AppDelegate.m in Sources */,
 				B759FA911EF378E40003E373 /* main.m in Sources */,
+				B759FAD91EF38BAE0003E373 /* HJPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
